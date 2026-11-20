@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "warm",
+  "version": "1.0.0",
+  "description": "Connect your AI agent to Warm's hosted personal finance MCP server to review balances, spending, upcoming bills, findings, and card benefits, and prepare changes you approve in Warm.",
+  "author": {
+    "name": "Warm",
+    "email": "hello@warm.io",
+    "url": "https://warm.io"
+  },
+  "homepage": "https://warm.io/financial-mcp-server/",
+  "repository": "https://github.com/jasonstockman/warm-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "warm",
+    "personal-finance",
+    "budgets",
+    "transactions",
+    "net-worth",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "warm": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
