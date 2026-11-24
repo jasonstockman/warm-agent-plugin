@@ -1,8 +1,10 @@
 # Warm Agent Plugin & Skills
 
+[![Warm MCP connector](https://glama.ai/mcp/connectors/io.warm/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/io.warm/mcp)
+
 Connect your AI agent to [Warm](https://warm.io) through Warm's hosted Streamable HTTP MCP server (`https://app.warm.io/mcp`), paired with workflow skills for financial check-ins, approved record updates, and confirmed credit card benefits.
 
-Compatible with **Hermes Agent**, **Cursor**, **Claude Code**, **Codex**, **OpenCode**, **Gemini CLI**, and any agent supporting [Agent Plugins v1.0.0](https://agent-plugins.org) or `npx skills`.
+Compatible with **Hermes Agent**, **Cursor**, **Claude Code**, **Codex**, **OpenCode**, **Gemini CLI**, **Cline**, and any agent supporting [Agent Plugins v1.0.0](https://agent-plugins.org) or `npx skills`.
 
 ## Install
 
@@ -10,6 +12,12 @@ Compatible with **Hermes Agent**, **Cursor**, **Claude Code**, **Codex**, **Open
 
 ```bash
 npx skills add jasonstockman/warm-agent-plugin
+```
+
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/jasonstockman/warm-agent-plugin
 ```
 
 ### Hermes Agent

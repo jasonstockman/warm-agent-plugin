@@ -1,0 +1,10 @@
+{
+  "name": "warm",
+  "version": "1.0.0",
+  "description": "Connect Gemini CLI to Warm's hosted personal finance MCP server to review balances, spending, upcoming bills, findings, and card benefits, and prepare approved updates.",
+  "mcpServers": {
+    "warm": {
+      "httpUrl": "https://app.warm.io/mcp"
+    }
+  }
+}
